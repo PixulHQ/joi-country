@@ -1,6 +1,6 @@
 {
   "name": "@pixul/joi-country",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "ISO Country extension for Joi",
   "main": "lib/index.js",
   "scripts": {
