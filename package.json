@@ -1,0 +1,34 @@
+{
+  "name": "@pixul/joi-country",
+  "version": "0.0.1",
+  "description": "ISO Country extension for Joi",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "lab -c -L",
+    "coverage": "NODE_ENV=test @hapi/lab -f -r html -o coverage.html",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "joi",
+    "country",
+    "i18n"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PixulHQ/joi-country.git"
+  },
+  "author": "Corentin BORDES <corentin@pixul.fr>",
+  "bugs": {
+    "url": "https://github.com/PixulHQ/joi-country/issues"
+  },
+  "homepage": "https://github.com/PixulHQ/joi-country#README",
+  "license": "MIT",
+  "dependencies": {
+    "i18n-iso-countries": "4.3.1"
+  },
+  "devDependencies": {
+    "@hapi/code": "8.0.1",
+    "@hapi/joi": "17.1.0",
+    "@hapi/lab": "22.0.3"
+  }
+}

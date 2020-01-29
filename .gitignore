@@ -1,0 +1,21 @@
+# IGNORE ALL
+*
+
+# ADD HAPI + TEST
+!lib/
+!lib/*
+!test/
+!test/*
+
+# REMOVE ENV FILES
+*.env
+
+# ADD METADATA FILE
+!.npmignore
+!.gitignore
+!package.json
+!.labrc.js
+
+# ADD DOC FILE
+!LICENSE
+!README.md
